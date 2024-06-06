@@ -4,3 +4,14 @@ out = "out"
 libs = ["lib"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+remappings = [
+    "@uniswap/v3-core/contracts/=V3-core/contracts",
+    "@uniswap/v2-core/contracts/=V2-core/contracts",
+    "@uniswap/v3-periphery/contracts/=V3-periphery/contracts",
+    "@uniswap/lib/=node_modules/@uniswap/lib/",
+    "@permit2/src=Permit2/src",
+    "solmate/=lib/solmate/",
+    "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+    "base64-sol/=src/",
+
+]
